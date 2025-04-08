@@ -1,0 +1,23 @@
+# Ignore bundler config and Ruby artifacts
+/.bundle
+Gemfile.lock
+*.gem
+
+# Ignore Jekyll build output and cache directories
+_site
+.jekyll-cache
+.sass-cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you have any node dependencies)
+node_modules/
+
+# Log files
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
