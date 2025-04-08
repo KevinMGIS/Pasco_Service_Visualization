@@ -1,4 +1,33 @@
 # _config.yml
-title: "GISNerd"
-description: "Pasco Community Services & Safety Visualization Project"
-theme: minima
+
+# Site settings
+title: "Pasco Service Visualization"
+description: "A project that visualizes Pasco County data using the ArcGIS API for JavaScript."
+baseurl: "/Pasco_Service_Visualization"  # the subpath of your site, e.g., /Pasco_Service_Visualization
+url: "https://kevinmgis.github.io"       # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima  # or your chosen theme
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Permalinks settings (optional, depending on your needs)
+permalink: pretty
+
+# Defaults for pages
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
