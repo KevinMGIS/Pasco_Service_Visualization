@@ -1,0 +1,32 @@
+---
+layout: default
+title: "Interactive Map - Pasco County"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/themes/light/main.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    html, body, #viewDiv {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Map container -->
+  <div id="viewDiv"></div>
+  
+  <!-- Load ArcGIS API for JavaScript -->
+  <script src="https://js.arcgis.com/4.23/"></script>
+  <!-- Custom JavaScript for the map -->
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
